@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Final_individual_Project_11904954_Lpu_Epam/src/test/java/org/example/Pagebin_Project_Test.java">
+        <classes>
+            <class name="org.example.Pagebin_Project_Test">
+                <methods>
+                    <include name="loginverification"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Final_individual_Project_11904954_Lpu_Epam/src/test/java/org/example/Google_Price_Cal_Test.java1">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="Url" value="https://cloud.google.com/products/calculator"></parameter>
+        <classes>
+            <class name="org.example.Google_Price_Cal_Test">
+                <methods>
+                    <include name="checkInformationInVmClassString"/>
+                    <include name="check_Data_is_correct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Final_individual_Project_11904954_Lpu_Epam/src/test/java/org/example/Google_Price_Cal_Test.java">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="Url" value="https://cloud.google.com/products/calculator"></parameter>
+        <classes>
+            <class name="org.example.Google_Price_Cal_Test">
+                <methods>
+                    <include name="checkInformationInVmClassString"/>
+                    <include name="check_Data_is_correct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
